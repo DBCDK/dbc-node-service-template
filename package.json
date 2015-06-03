@@ -1,0 +1,25 @@
+{
+  "name": "NAME",
+  "version": "0.0.1",
+  "description": "DESCRIPTION",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "build": "npm run cleardest && babel ./src -d dist",
+    "cleardest": "rm -rf ./dist",
+    "watch": "npm run cleardest && babel ./src --watch -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "REPO"
+  },
+  "keywords": [
+    "dbc"
+  ],
+  "author": "DBC A/S",
+  "license": "ISC",
+  "bugs": {
+    "url": "REPO/issues"
+  },
+  "homepage": "REPO#readme"
+}
